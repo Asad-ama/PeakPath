@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PeakPath</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="wrap">
+      <a href="#top" class="logo">PeakPath</a>
+      <nav>
+        <a href="#about">О нас</a>
+        <a href="#routes">Маршруты</a>
+        <a href="#included">Что включено</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact">Заявка</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-in">
+      <div class="tag">Горные маршруты · с 2011 года</div>
+      <h1>Тишина выше облаков</h1>
+      <p>Малые группы, треккинг и восхождения на Алтае, Кавказе и Камчатке. Без толп и спешки — только маршрут, ваш ритм
+        и горы.</p>
+      <div class="hero-cta">
+        <a href="#routes" class="btn">Смотреть маршруты</a>
+        <a href="#about" class="link">Как проходят походы</a>
+      </div>
+    </div>
+    <div class="facts" id="included">
+      <div class="wrap">
+        <span>Группы <b>до 8 человек</b></span>
+        <span>Гид на всём маршруте</span>
+        <span>Снаряжение <b>включено</b></span>
+        <span>Старты с апреля по октябрь</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <div>
+        <div class="tag">Кто мы</div>
+        <h2>Мы ходим медленно, зато до вершины</h2>
+        <p>«Высота» — небольшая команда гидов, которая десять лет водит людей в настоящие горы. Мы не продаём экстрим и
+          не гонимся за отметками в трекере: у каждого маршрута есть ритм, в который успевает вся группа.</p>
+        <p>Перед стартом — тренировочный план, созвон и честный разговор о сложности. В пути — гид, который идёт
+          последним, и лагерь, где горячее уже готово. После — фотографии и маршрут, который хочется повторить.</p>
+        <blockquote>«В горах нечего доказывать. Есть только ваш шаг и расстояние».
+          <small>Артём Ковалёв · старший гид</small>
+        </blockquote>
+        <div class="stats">
+          <div><strong>10</strong><span>лет в горах</span></div>
+          <div><strong>1 гид : 4</strong><span>участника</span></div>
+          <div><strong>1 400+</strong><span>гостей на маршрутах</span></div>
+        </div>
+      </div>
+      <div class="pics">
+        <div class="pic a"></div>
+        <div class="pic b"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="routes" id="routes">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="tag">Маршруты сезона</div>
+          <h2>Куда идём этой весной и летом</h2>
+        </div>
+        <p>Наборы открыты. Нажмите «Выбрать маршрут» — подставим его в заявку внизу страницы.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="thumb t1"><i>Алтай</i></div>
+          <div class="card-b">
+            <h3>Мультинские хребты</h3>
+            <p>Долины, прозрачные озёра и ночёвки в лагере под кедрами. Треккинг без технического снаряжения.</p>
+            <div class="meta"><span>8 дней</span><span>средняя</span><span>от 74 000 ₽</span></div>
+            <button data-route="Мультинские хребты">Выбрать маршрут →</button>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t2"><i>Камчатка</i></div>
+          <div class="card-b">
+            <h3>Вулканы и чёрные пляжи</h3>
+            <p>Подъём на вулкан, фумарольные поля и база у океана. Нужна хорошая форма и тренировки.</p>
+            <div class="meta"><span>10 дней</span><span>высокая</span><span>от 128 000 ₽</span></div>
+            <button data-route="Вулканы и чёрные пляжи">Выбрать маршрут →</button>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t3"><i>Кавказ</i></div>
+          <div class="card-b">
+            <h3>Безенгийский цирк</h3>
+            <p>Ледники, высотные лагеря и панорамы двуглавого Ушбы. Первая ступень к восхождениям.</p>
+            <div class="meta"><span>7 дней</span><span>высокая</span><span>от 69 000 ₽</span></div>
+            <button data-route="Безенгийский цирк">Выбрать маршрут →</button>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t4"><i>Саяны</i></div>
+          <div class="card-b">
+            <h3>Зимний переход</h3>
+            <p>Снегоступы, бивак в тайге и северное небо. Мягкий вводный формат для первого зимнего похода.</p>
+            <div class="meta"><span>6 дней</span><span>средняя</span><span>от 58 000 ₽</span></div>
+            <button data-route="Зимний переход">Выбрать маршрут →</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="tag">Галерея</div>
+          <h2>Как это выглядит вживую</h2>
+        </div>
+        <p>Кадры с наших маршрутов — без ретуши и постановочных групп.</p>
+      </div>
+      <div class="grid">
+        <div class="g g1"></div>
+        <div class="g g2"></div>
+        <div class="g g3"></div>
+        <div class="g g4"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div>
+        <div class="tag">Заявка</div>
+        <h2>Пойдёмте вместе</h2>
+        <p>Заявка ни к чему не обязывает: сначала обсудим ваш опыт, форму и удобные даты, потом подберём маршрут.
+          Отвечаем в течение рабочего дня.</p>
+        <div class="info">
+          <div><small>Почта</small><b>PeakPath@mail.com</b></div>
+          <div><small>Телефон</small><b>+7 999 000-00-00</b></div>
+          <div><small>Часы ответа</small><b>Пн–Пт, 10:00–19:00</b></div>
+        </div>
+      </div>
+
+      <form id="form" novalidate>
+        <div class="row">
+          <label>Имя<input type="text" id="name" placeholder="Как к вам обращаться" required></label>
+          <label>Телефон<input type="tel" id="phone" placeholder="+7 ___ ___-__-__" required></label>
+        </div>
+        <label>Email<input type="email" id="email" placeholder="you@example.com"></label>
+        <label>Маршрут
+          <select id="route">
+            <option value="">Выберите маршрут</option>
+            <option>Мультинские хребты</option>
+            <option>Вулканы и чёрные пляжи</option>
+            <option>Безенгийский цирк</option>
+            <option>Зимний переход</option>
+          </select>
+        </label>
+        <label>Комментарий<textarea id="comment" placeholder="Опыт походов, удобные даты, вопросы"></textarea></label>
+        <label class="check"><input type="checkbox" id="agree"> Согласен на обработку персональных данных и получение
+          ответа на заявку</label>
+        <button class="btn" type="submit">Отправить заявку</button>
+        <div id="msg" role="status"></div>
+        <div class="note">Обычно отвечаем в течение дня — без навязчивых звонков.</div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="f-top">
+        <div>
+          <div class="logo">Высота</div>
+          <p>Малогрупповые горные маршруты: Алтай, Кавказ, Камчатка, Саяны. С 2011 года.</p>
+        </div>
+        <div class="f-cols">
+          <div>
+            <h4>Разделы</h4><a href="#about">О нас</a><a href="#routes">Маршруты</a><a href="#included">Что
+              включено</a><a href="#gallery">Галерея</a>
+          </div>
+          <div>
+            <h4>Контакты</h4><a href="PeakPath@mail.com">PeakPath@mail.com</a><a
+              href="tel:+79990000000">+7 999 000-00-00</a><a href="#contact">Оставить заявку</a>
+          </div>
+          <div>
+            <h4>Соцсети</h4><a href="#">Telegram</a><a href="#">VK</a><a href="#">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="f-bot">
+        <span>PeakPath | Путь к вершинам</span>
+        <span>Фотографии: архив гидов и открытые съёмки</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+
+    document.querySelectorAll('[data-route]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.getElementById('route').value = btn.dataset.route;
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    
+    var phone = document.getElementById('phone');
+    phone.addEventListener('input', function () {
+      var d = phone.value.replace(/\D/g, '');
+      if (d[0] === '7' || d[0] === '8') d = d.slice(1);
+      d = d.slice(0, 10);
+      var s = '+7';
+      if (d.length) s += ' ' + d.slice(0, 3);
+      if (d.length > 3) s += ' ' + d.slice(3, 6);
+      if (d.length > 6) s += '-' + d.slice(6, 8);
+      if (d.length > 8) s += '-' + d.slice(8, 10);
+      phone.value = d.length ? s : '';
+    });
+
+  
+    var form = document.getElementById('form');
+    var msg = document.getElementById('msg');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = document.getElementById('name').value.trim();
+      var digits = phone.value.replace(/\D/g, '');
+      var email = document.getElementById('email').value.trim();
+      msg.className = '';
+      if (!name) return fail('Укажите, как к вам обращаться');
+      if (digits.length < 11) return fail('Введите телефон полностью');
+      if (email && !/^\S+@\S+\.\S+$/.test(email)) return fail('Проверьте email');
+      if (!document.getElementById('agree').checked) return fail('Нужно согласие на обработку данных');
+
+      
+      msg.textContent = 'Спасибо! Ответим в течение рабочего дня.';
+      form.reset();
+    });
+    function fail(text) { msg.textContent = text; msg.className = 'err'; }
+  </script>
+</body>
+
+</html>
